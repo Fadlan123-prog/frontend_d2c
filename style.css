@@ -1,0 +1,116 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:black;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin:0;
+    padding:0;
+}
+
+.navbar .navbar-collapse{
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.text-white span{
+    color:#38C0FF;
+    font-weight: 600;
+}
+
+.btn-outline-blue{
+    border-color:#38C0FF;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.btn-outline-blue:hover{
+    background-color:#38C0FF;
+    color: #fff;
+}
+
+.quality__section {
+    background-color: transparent;
+    background-image: url('img/samuele-errico-piccarini-FMbWFDiVRPs-unsplash\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality__section h1{
+    font-weight: 600 !important;
+}
+
+.quality__section h1 span{
+    color: #38C0FF;
+}
+
+#car-issues {
+    background-color: #000; /* Black background */
+    color: white;
+    min-height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.issue-item {
+    padding: 1rem 2rem;
+    font-size: 1vw;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid #38C0FF;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 15px #38C0FF, 0 0 30px #38C0FF, 0 0 45px #38C0FF;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    width: 300px;
+    margin: 10px;
+}
+
+.issue-item:hover {
+    box-shadow: 0 0 20px #38C0FF, 0 0 40px #38C0FF, 0 0 60px #38C0FF;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .issue-item {
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+        width: 180px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+.offset-top{
+    position: relative;
+    top: -50px;
+}
+
+.offset-bottom{
+    position: relative;
+    bottom: -50px;
+}
