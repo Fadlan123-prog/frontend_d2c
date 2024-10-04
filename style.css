@@ -115,8 +115,75 @@ body{
     bottom: -50px;
 }
 
+.solution{
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}    
 .solution .img-solution{
-    width: 100%;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.solution .col-6 .img-logo-glow{
+    width: 55%;
     height: auto;
     object-fit: cover;
+}
+
+.solution .col-6 h1{
+    font-weight: 600;
+    font-size: 60px;
+    padding-left: 15px;
+}
+
+.solution .col-6 span{
+    color: #38C0FF;
+    font-weight: 600;;
+}
+
+.solution .col-6 p{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.solution .col-6 button{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid #38C0FF;
+    background-color: #38C0FF !important;
+    color: black;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.solution .col-6 button span{
+    color: #FF0000;
+}
+
+.solution-2{
+    background-image: url('/img/bg-solution-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 68vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-2 .container{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.solution-2 .container h1{
+    font-weight: 600;
+
 }
