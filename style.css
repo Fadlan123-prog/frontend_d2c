@@ -18,6 +18,29 @@ body{
     justify-content: space-around !important;
 }
 
+.container-fluid:nth-last-child(){
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
+.glow-hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero-section{
+    position: relative;
+}
+
+.img-fluid{
+    max-width: 78vw !important;
+    width: 78vw !important;
+    height: 100%;
+    object-fit: cover;
+}
+
 .text-white span{
     color:#38C0FF;
     font-weight: 600;
@@ -232,9 +255,12 @@ body{
 }
 
 .promo-card {
-    background: linear-gradient(180deg, rgba(11,11,11,1) 0%, rgba(0,0,0,1) 35%);;
+    background: linear-gradient(180deg, rgba(11,11,11,1) 0%, rgba(0,0,0,1) 35%),
+                linear-gradient(0deg, transparent 0%, #fff 100%);
+    border: 3px solid; /* Border width */
+    border-image: linear-gradient(0deg, #000000 0%, #ffffff 100%);
+    border-image-slice: 1;
     color: white;
-    border: 1px solid #444;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
