@@ -606,6 +606,13 @@
           console.log('Adding "offset-bottom" class back'); // Debugging log
           $('.issue-item:nth-child(5)').addClass('offset-bottom');
       }
+
+      if ($(window).width() <= 578) {
+        $('.de').removeClass('de');
+      } else {
+        $('.de').addClass('de');
+      }
+
   }
 
   // Run function when the window is resized

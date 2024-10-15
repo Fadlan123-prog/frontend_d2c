@@ -1414,4 +1414,12 @@ hr{
         text-align: center;
     }
 
+    .card-title img{
+        width: 10%;
+    }
+
+}
+
+.bg-dark{
+    background-color: #121212 !important;
 }
